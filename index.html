@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio de sesión</title>
+  <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./vendor/fontawesome/css/all.min.css">
+</head>
+<body class="bg-light">
+  <header class="container text-center my-5">
+    <img class="img-fluid mb-3" src="./img/Logo.png" alt="Logotipo de la empresa" style="max-width: 250px;">
+    <h1 class="fw-semibold">Bienvenido al portal</h1>
+  </header>
+  <main>
+    <section class="container d-flex align-items-center justify-content-center">
+      <div class="card col-xxl-4 col-xl-5 col-lg-5 col-md-7 col-sm-9 shadow-lg">
+        <h1 class="fs-3 fw-bold ps-5 pt-5">Iniciar sesión</h1>
+        <div class="card-body ps-5 pe-5 pb-5">
+          <form method="post" asp-controller="" asp-action="" autocomplete="off">
+            <div class="mb-3">
+              <label asp-for="" class="mb-2 text-muted">Usuario o correo electrónico</label>
+              <div class="input-group">
+                <span class="input-group-text"><i class="fas fa-user"></i></span>
+                <input asp-for="" class="form-control" placeholder="Correo electrónico" required>
+                <span asp-validation-for="" class="small text-danger"></span>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label asp-for="" class="mb-2 text-muted">Contraseña</label>
+              <div class="input-group">
+                <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                <input asp-for="" class="form-control" placeholder="Contraseña" required>
+                <span asp-validation-for="" class="small text-danger"></span>
+              </div>
+            </div>
+            <div class="text-center pt-3">
+              <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+            </div>
+          </form>
+        </div>
+        <div class="card-footer py-3 border-0">
+          <div class="text-center">
+            ¿Olvidaste tu contraseña? <a class="text-decoration-none">Presiona aquí</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="container text-center mt-5 mb-3 text-muted">
+    <p>&copy; 2025 Jorge Eduardo Silva Prieto</p>
+  </footer>
+  <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
