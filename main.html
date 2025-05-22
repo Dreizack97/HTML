@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Main menú</title>
+  <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/vendor/fontawesome/css/all.min.css" />
+</head>
+
+<!-- * Falta clase: nav-fixed -->
+
+<body>
+
+  <header>
+    <!-- * Faltan clases: topnav navbar-light -->
+    <nav class="navbar navbar-expand shadow justify-content-between justify-content-sm-start bg-white">
+      <!-- * Faltan clases: btn-icon btn-transparent-dark -->
+      <button class="btn order-1 order-lg-0 me-2 ms-lg-2 me-lg-0">
+        <i class="fas fa-grip"></i>
+      </button>
+      <a class="navbar-brand fw-bold pe-3 ps-4 ps-lg-2" href="/main.html">SB Admin Pro</a>
+      <ul class="navbar-nav align-items-center ms-auto">
+        <!-- * Faltan clases: no-caret -->
+        <li class="nav-item dropdown d-none d-md-block me-3">
+          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">
+            <div class="fw-500">Documentación</div>
+            <!-- * Falta clase: dropdown-arrow -->
+            <i class="fas fa-chevron-right"></i>
+          </a>
+          <!-- * Faltan clases: me-sm-n15 o-hidden animated--fade-in-up -->
+          <div class="dropdown-menu dropdown-menu-end py-0 me-lg-0">
+            <a class="dropdown-item py-3" href="" target="_blank">
+              <!-- * Faltan clases: icon-stack bg-primary-soft -->
+              <div class="text-primary me-4">
+                <i class="fas fa-book"></i>
+              </div>
+              <div>
+                <!-- * Falta clase: text-gray-500 -->
+                <div class="small">Documentation</div>
+                Usage instructuions and references
+              </div>
+            </a>
+            <div class="dropdown-divider m-0"></div>
+            <a class="dropdown-item py-3" href="" target="_blank">
+              <!-- * Faltan clases: icon-stack bg-primary-soft -->
+              <div class="text-primary me-4">
+                <i class="fas fa-code"></i>
+              </div>
+              <div>
+                <!-- * Falta clase: text-gray-500 -->
+                <div class="small">Components</div>
+                Code snippets and references
+              </div>
+            </a>
+          </div>
+        </li>
+        <!-- * Faltan clases: no-caret dropdown-user -->
+        <li class="nav-item dropdown me-3 me-lg-4">
+          <!-- * Falta clase: btn-icon btn-transparent-dark -->
+          <a class="btn dropdown-toggle" role="button" data-bs-toggle="dropdown">
+            <img class="img-fluid" src="" alt="Usuario" />
+          </a>
+          <!-- * Falta clase: animated--fade-in-up -->
+          <div class="dropdown-menu dropdown-menu-end border-0 shadow">
+            <h6 class="dropdown-header d-flex align-items-center">
+              <!-- * Falta clase: dropdown-user-img -->
+              <img src="/img/Logo.png" />
+              <!-- * Falta clase: dropdown-user-details -->
+              <div>
+                <!-- * Falta clase: dropdown-user-details-name -->
+                <div>Username</div>
+                <!-- * Falta clase: dropdown-user-details-email -->
+                <div><a href="mailto:email@email.com"></a>email@email.com</div>
+              </div>
+            </h6>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">
+              <!-- * Falta clase: dropdown-item-icon -->
+              <div>
+                <i class="fas fa-gear"></i>
+              </div>
+              Mi perfil
+            </a>
+            <a class="dropdown-item" href="#">
+              <!-- * Falta clase: dropdown-item-icon -->
+              <div>
+                <i class="fas fa-close"></i>
+              </div>
+              Cerrar sesión
+            </a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <aside>
+    <!-- * Faltan clases: sidenav shadow-right sidenav-light -->
+    <nav>
+      <!-- * Falta clase: sidenav-menu -->
+      <div>
+        <div class="nav accordion">
+          <!-- * Falta clase: sidenav-menu-heading -->
+          <div>Recursos Humanos</div>
+          <a class="nav-link">
+            <!-- * Falta clase: nav-link-icon -->
+            <div>
+              <i class="fas fa-chart-simple"></i>
+            </div>
+            Dashboard
+          </a>
+          <a class="nav-link collapsed" href="" data-bs-toggle="collapse" data-bs-target="#collapseHRE">
+            <!-- * Falta clase: nav-link-icon -->
+            <div>
+              <i class="fas fa-user"></i>
+            </div>
+            Empleados
+            <!-- * Falta clase: sidenav-collapse-arrow -->
+            <div>
+              <i class="fas fa-angle-down"></i>
+            </div>
+          </a>
+          <div id="collapseHRE" class="collapse">
+            <!-- * Falta clase: sidenav-menu-nested -->
+            <nav class="nav accordion">
+              <a class="nav-link">Agregar empleado</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!-- * Falta clase: sidenav-footer -->
+      <div>
+        <!-- * Falta clase: sidenav-footer-content -->
+        <div>
+          <!-- * Falta clase: sidenav-footer-title -->
+          <div>Username</div>
+          <!-- * Falta clase: sidenav-footer-subtitle -->
+          <div>Último inicio de sesión:</div>
+        </div>
+      </div>
+    </nav>
+  </aside>
+
+  <main>
+    <!-- Contenido principal -->
+    <section>
+      <!-- Secciones temáticas -->
+    </section>
+
+    <article>
+      <!-- Contenido independiente -->
+    </article>
+
+    <aside>
+      <!-- Contenido relacionado/secundario -->
+    </aside>
+  </main>
+
+  <footer>
+    <!-- Pie de página -->
+  </footer>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
