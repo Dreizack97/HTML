@@ -10,43 +10,26 @@
   <link rel="stylesheet" href="/vendor/fontawesome/css/all.min.css" />
 </head>
 
-<!-- * Falta clase: nav-fixed -->
-<!-- TODO: Revisar limpieza de CSS -->
-
 <body class="nav-fixed">
 
   <header>
-    <!-- * Faltan clases: topnav navbar-light -->
-    <!-- TODO: Revisar limpieza de CSS -->
     <nav class="topnav navbar navbar-expand shadow justify-content-between justify-content-sm-start navbar-light bg-white">
-      <!-- * Faltan clases: btn-icon btn-transparent-dark -->
-      <!-- TODO: Revisar limpieza de CSS -->
       <button class="btn btn-icon btn-transparent-dark order-1 order-lg-0 me-2 ms-lg-2 me-lg-0">
         <i class="fas fa-grip"></i>
       </button>
       <a class="navbar-brand fw-bold pe-3 ps-4 ps-lg-2" href="/main.html">SB Admin Pro</a>
       <ul class="navbar-nav align-items-center ms-auto">
-        <!-- * Faltan clases: no-caret -->
-        <!-- TODO: Revisar limpieza de CSS -->
         <li class="nav-item dropdown no-caret d-none d-md-block me-3">
           <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">
             <div class="fw-500">Documentación</div>
-            <!-- * Falta clase: dropdown-arrow -->
-            <!-- TODO: Revisar limpieza de CSS -->
             <i class="fas fa-chevron-right dropdown-arrow"></i>
           </a>
-          <!-- * Faltan clases: me-sm-n15 o-hidden animated--fade-in-up -->
-          <!-- TODO: Revisar limpieza de CSS -->
           <div class="dropdown-menu dropdown-menu-end py-0 me-sm-n15 o-hidden animated--fade-in-up me-lg-0">
             <a class="dropdown-item py-3" href="" target="_blank">
-              <!-- * Faltan clases: icon-stack bg-primary-soft -->
-              <!-- TODO: Revisar limpieza de CSS -->
               <div class="icon-stack bg-primary-soft text-primary me-4">
                 <i class="fas fa-book"></i>
               </div>
               <div>
-                <!-- * Falta clase: text-gray-500 -->
-                <!-- TODO: Revisar limpieza de CSS -->
                 <div class="small text-gray-500">Documentation</div>
                 Usage instructuions and references
               </div>
@@ -63,32 +46,20 @@
             </a>
           </div>
         </li>
-        <!-- * Faltan clases: no-caret dropdown-user -->
-        <!-- TODO: Revisar limpieza de CSS -->
         <li class="nav-item dropdown no-caret dropdown-user me-3 me-lg-4">
           <a class="btn btn-icon btn-transparent-dark dropdown-toggle" role="button" data-bs-toggle="dropdown">
             <img class="img-fluid" src="" alt="Usuario" />
           </a>
           <div class="dropdown-menu dropdown-menu-end border-0 shadow animated--fade-in-up">
             <h6 class="dropdown-header d-flex align-items-center">
-              <!-- * Falta clase: dropdown-user-img -->
-              <!-- TODO: Revisar limpieza de CSS -->
               <img class="dropdown-user-img" src="/img/Logo.png" />
-              <!-- * Falta clase: dropdown-user-details -->
-              <!-- TODO: Revisar limpieza de CSS -->
               <div class="dropdown-user-details">
-                <!-- * Falta clase: dropdown-user-details-name -->
-                <!-- TODO: Revisar limpieza de CSS -->
                 <div class="dropdown-user-details-name">Username</div>
-                <!-- * Falta clase: dropdown-user-details-email -->
-                <!-- TODO: Revisar limpieza de CSS -->
                 <div class="dropdown-user-details-email"><a href="mailto:email@email.com"></a>email@email.com</div>
               </div>
             </h6>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">
-              <!-- * Falta clase: dropdown-item-icon -->
-              <!-- TODO: Revisar limpieza de CSS -->
               <div class="dropdown-item-icon">
                 <i class="fas fa-gear"></i>
               </div>
@@ -108,15 +79,11 @@
 
   <aside id="layoutSidenav">
     <div id="layoutSidenav_nav">
-      <!-- * Faltan clases: sidenav shadow-right sidenav-light -->
       <nav class="sidenav shadow-right sidenav-light">
-        <!-- * Falta clase: sidenav-menu -->
         <div class="sidenav-menu">
           <div class="nav accordion">
-            <!-- * Falta clase: sidenav-menu-heading -->
             <div class="sidenav-menu-heading">Recursos Humanos</div>
             <a class="nav-link">
-              <!-- * Falta clase: nav-link-icon -->
               <div class="nav-link-icon">
                 <i class="fas fa-chart-simple"></i>
               </div>
@@ -148,27 +115,31 @@
     </div>
     <div id="layoutSidenav_content">
       <main>
-        <!-- Contenido principal -->
-        <section>
-          <!-- Secciones temáticas -->
-        </section>
 
-        <article>
-          <!-- Contenido independiente -->
-        </article>
+        <header class="page-header page-header-compact page-header-light border-bottom bg-white mb-4">
+          <div class="container-fluid px-4">
+            <div class="page-header-content">
+              <div class="row align-items-center justify-content-between pt-3">
+                <div class="col-auto mb-3">
+                  <h1 class="page-header-title">
+                    <div class="page-header-icon"><i class="fas fa-people-roof"></i></div>
+                    Información del departamento
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
 
-        <aside>
-          <!-- Contenido relacionado/secundario -->
-        </aside>
       </main>
       <footer class="footer-admin mt-auto footer-light">
         <div class="container-xl px-4">
           <div class="row">
             <div class="col-md-6 small">Copyright &copy; 2025 Jorge Eduardo Silva Prieto</div>
             <div class="col-md-6 text-md-end small">
-              <a href="#!">Política de privacidad</a>
+              <a class="text-decoration-none" href="#!">Política de privacidad</a>
               ·
-              <a href="#!">Términos y condiciones</a>
+              <a class="text-decoration-none" href="#!">Términos y condiciones</a>
             </div>
           </div>
         </div>
